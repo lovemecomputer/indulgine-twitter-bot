@@ -1,0 +1,48 @@
+<svg viewBox="0 0 1024 512" width="1024" height="512"   xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+
+  <script type="text/javascript">
+    var dark = "#414141";
+    var blue = "#2328ff";
+    var blueFaded = "#f7f7ff";
+    var pink = "#9f81b3";
+    var pinkFaded = "#fbf0f8";
+
+    var r1 = 45;
+    var r2 = 85;
+
+    function change(evt) {
+      var target = evt.target;
+      var radius = target.getAttribute("r");
+
+      if (radius == r2) {
+        radius = r1;
+      } else {
+        radius = r2;
+      }
+
+      target.setAttribute("r",radius);
+   }
+  </script>
+
+
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Inconsolata');
+      text { font-family: 'Inconsolata', monospace; }
+    </style>
+  </defs>
+
+
+  <circle cx="50" cy="50" r="45" fill="#9f81b3"
+          onclick="change(evt)" />
+
+
+  <path d="M4 4 H8 V15 L30 4 V30 L8 18 V30 H4 z"/>
+
+
+  <text x="100" y="100" >i’m just trying to log on</text>
+
+
+
+</svg>

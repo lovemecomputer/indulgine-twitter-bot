@@ -1,0 +1,31 @@
+<svg viewBox="0 0 1024 512" width="1024" height="512" style="background-color: #fff;" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+
+  <script type="text/javascript">
+    var dark = "#414141";
+    var blue = "#2328ff";
+    var blueFaded = "#f7f7ff";
+    var pink = "#9f81b3";
+    var pinkFaded = "#fbf0f8";
+
+    function layout() {
+      return "<text x="100" y="100" >i’m just trying to log on</text>";
+    }
+
+  </script>
+
+
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Rubik');
+      text {
+        font-family: 'Rubik', sans-serif;
+        font-size: 20px;
+      }
+    </style>
+  </defs>
+  layout();
+  <!-- <text x="100" y="100" >i’m just trying to log on</text> -->
+
+
+</svg>

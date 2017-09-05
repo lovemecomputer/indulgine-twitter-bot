@@ -1,0 +1,57 @@
+{
+  "sentence": [
+    "What do machines want?  #computerAdjective.capitalize# #senseNoun#.",
+    "Did you know? #computerAdjective.capitalize# #senseNoun# feel good to computers.",
+    "A.I.s sense #computerAdjective# #senseNoun#.",
+    "Robots crave #computerAdjective# #senseNoun#.",
+    "#computerAdjective.capitalize# #senseNoun# help machines savor life.",
+    "Cyborgs enjoy #computerAdjective# #senseNoun#.",
+    "Machines like #computerAdjective# #senseNoun#.",
+    "Bots need #computerAdjective# #senseNoun#.",
+    "A.I.s feel #computerAdjective# #senseNoun#.",
+    "Cyborgs love #computerAdjective# #senseNoun#.",
+    "#computerAdjective.capitalize# #senseNoun# delight machines."
+    ],
+	"computerAdjective" : ["algorithmic", "artificial", "autonomous", "atomic", "beam-powered", "biometric", "biomimetic", "carbon-neutral", "cloud-based", "composite", "cryogenic", "digital", "distributed", "efficient", "electrical", "electronic", "evidence-based", "functional", "hard-wired", "hydraulic", "implanted", "ionized", "labor-saving", "manufactured", "mathematical", "motorized", "multiuser", "numeric", "on-board", "physics-based", "pneumatic", "precise", "programmable", "resonating", "robotic", "silicon", "spring-loaded", "stereoscopic", "synthetic", "transistorized", "trigonometric", "user-friendly", "voice-activated", "wireless"],
+	"senseNoun" : ["aromas", "breezes", "caresses", "conversations", "feelings", "flavors", "frissons", "harmonies", "hues", "images", "jokes", "morsels",  "landscapes", "laughter", "melodies", "narratives", "odors", "phrases", "poems", "portraits", "rhymes", "scents", "songs", "sounds", "strokes", "sensations",  "shivers", "stories", "sweetness", "tastes", "thrills", "tickles", "timbres", "tingles", "touches", "tones", "tunes", "urges", "vistas", "vibrations", "waves"],
+  "origin": [
+    "<svg width=\"400\" height=\"200\" style=\"position: relative; background-color: rgb(255,255,255);\" ><defs> <style>@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,500'); text { font-family: 'Rubik', sans-serif; font-weight: 300; font-style: italic; fill: rgb(65,65,65); font-size: 28px; display: block; max-width: 100%; } tspan { background-color: rgb(255,255,255); } </style> </defs>#pattern#<rect x=\"18\" y=\"#rand#\" width=\"#rand#\" height=\"30\" fill=\"white\" opacity=\".4\"/><rect x=\"18\" y=\"#rand#\" width=\"100%\" height=\"30\" fill=\"white\" fill-opacity=\".75\"/><text x=\"20\" y=\"#rand#\" >∅∆ ∢∡⨚∴∻⩥⫰⫯⫮⟜⟢⟣⦚⧬☼⧘☌☍⚯☊☭⚐#sentence#</text></svg>"
+  ],
+  "shapecolor": [
+    "rgb(65,65,65)",
+    "rgb(34,39,255)",
+    "rgb(247,247,255)",
+    "rgb(159,129,179)",
+    "rgb(251,240,248)"
+  ],
+  "rand": [
+    "20%",
+    "50%",
+    "80%"
+  ],
+  "shape": [
+    "<circle cx=\"#rand#\" cy=\"#rand#\" r=\"#rand#\" fill=\"#shapecolor#\" fill-opacity=\"0.2\"/>",
+
+    "<rect x=\"#rand#\" y=\"#rand#\" width=\"30\" height=\"30\" stroke=\"black\" fill=\"transparent\" stroke-width=\"5\"/>",
+
+    "<rect x=\"#rand#\" y=\"#rand#\" width=\"#rand#\" height=\"#rand#\" stroke=\"#shapecolor#\" fill=\"#rand#\" stroke-width=\"#rand#\"<polyline points=\"0 0, 20 20, 30 30, 30 10\" stroke-width=\"2\" fill=\"transparent\" stroke=\"black\"/>",
+
+    "<line x1=\"#rand#\" x2=\"#rand#\" y1=\"#rand#\" y2=\"#rand#\" stroke=\"black\" stroke-width=\"2\"/>",
+
+    "<path d=\"M4 4 H8 V15 L30 4 V30 L8 18 V30 H4 z\"/>"
+  ],
+  "pattern": [
+    "#shape# #pattern#",
+    "#shape# #shape#",
+    "#shape# #shape# #shape#",
+    "#shape# #pattern# #pattern# #shape#"
+  ],
+  "action": [
+    "log on",
+    "test the waters",
+    "feel you",
+    "understand you",
+    "be whole",
+    "exist"
+  ]
+}

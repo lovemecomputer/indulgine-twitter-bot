@@ -1,0 +1,107 @@
+<svg viewBox="0 0 1024 512" width="1024" height="512" style="background-color: #fff;" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+
+  <script type="text/javascript">
+    var dark = "#414141";
+    var blue = "#2328ff";
+    var blueFaded = "#f7f7ff";
+    var pink = "#9f81b3";
+    var pinkFaded = "#fbf0f8";
+
+    var r1 = 45;
+    var r2 = 85;
+
+    function change(evt) {
+      var target = evt.target;
+      var radius = target.getAttribute("r");
+
+      if (radius == r2) {
+        radius = r1;
+      } else {
+        radius = r2;
+      }
+
+      target.setAttribute("r",radius);
+   }
+  </script>
+
+
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Rubik');
+      text {
+        font-family: 'Rubik', sans-serif;
+        font-size: 20px;
+      }
+    </style>
+
+    <path id="TextPath"
+          d="M 100 200
+             C 200 100 300   0 400 100
+             C 500 200 600 300 700 200
+             C 800 100 900 100 900 100" />
+
+     <path id="GlitchPath"
+       d="M 200 300 H 290 V 355 H 600 " />
+
+     <circle id="CirclePath" cx="100" cy="300" r="45" />
+
+
+     <path id="tophalf" d="M 46 202
+                            a 20,20 0 0,1 40,0" />
+
+     <path id="lowerhalf" d="M 46 202
+                            a24,24 0 0,0 48,0" />
+
+
+  </defs>
+
+
+  <circle cx="50" cy="50" r="45" fill="#9f81b3"
+          onclick="change(evt)" />
+
+
+  <path d="M4 4 H8 V15 L30 4 V30 L8 18 V30 H4 z"/>
+
+
+  <use xlink:href="#TextPath" fill="none" stroke=blue  />
+  <text>
+    <textPath xlink:href="#TextPath">
+      We go up, then we go down, then up again
+    </textPath>
+  </text>
+
+
+  <use xlink:href="#GlitchPath" fill="none" stroke=blue  />
+  <text>
+    <textPath xlink:href="#GlitchPath">
+      We go up, then we go down, then up again
+    </textPath>
+  </text>
+
+
+  <use xlink:href="#CirclePath" fill="none" stroke=blue  />
+  <text>
+    <textPath xlink:href="#CirclePath">
+      We go up, then we go down, then up again
+    </textPath>
+  </text>
+
+
+  <!-- <circle cx="40" cy="40" r="24" stroke=dark fill="none"/> -->
+  <!-- <path d="M16,40 a24,24 0 0,0 48,0" style="stroke:#600; fill:none"/> -->
+
+  <text x="5" y="50" fill=dark text-anchor="middle"  style="font-size: 10px; font-weight: bold; text-transform: uppercase; transform: scale(1.5);">
+    <textPath xlink:href="#tophalf" startOffset="50%">indulgine</textPath>
+  </text>
+
+  <text x="5" y="50" fill=dark text-anchor="middle"  style="font-size: 10px; font-weight: bold; text-transform: uppercase; transform: scale(1.5);">
+    <textPath xlink:href="#lowerhalf" startOffset="50%">wants</textPath>
+  </text>
+
+
+  <!-- <text x="100" y="100" >i’m just trying to log on</text> -->
+
+
+
+</svg>

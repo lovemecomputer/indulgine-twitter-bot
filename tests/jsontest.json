@@ -1,0 +1,26 @@
+{
+
+  "ABOUT": "Up to the moment total of what tax payers are paying for Donald Trump's personal life. Fore more info go to http://trumptax.me"
+
+  ,"MADE BY": "@derekahmedzai"
+
+  ,"NOTES": "Inspired by the tax totaliser at http://trumptax.me"
+
+  ,"origin": "\\#trumptax{svg <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"1024\" height=\"512\" style=\"position: relative; background-color: \\#fa5e01;\">#title##tax##explanation##footer#</svg>}"
+
+  ,"title" : "<foreignObject  x='0' y='0' width='1024' height='512'><p xmlns=\"http://www.w3.org/1999/xhtml\" style='position: absolute; left: 20px; top: 60px; padding: 0; margin: 0; width: 100%; font-size:50px; color: white; font-family: Georgia; font-weight: bold;' id=\"p_date\">Trump Tax</p></foreignObject>"
+
+  ,"tax" : "<foreignObject  x='0' y='0' width='1024' height='512'><p xmlns=\"http://www.w3.org/1999/xhtml\" style='position: absolute; left: 20px; top: 140px; padding: 0; margin: 0; width: 100%; font-size:50px; color: white; font-family: monospace;' id=\"p_tax\">#js_moment##js_numeral##js_calc##js_output#</p></foreignObject>"
+
+  ,"explanation" : "<foreignObject  x='0' y='0' width='1024' height='512'><p xmlns=\"http://www.w3.org/1999/xhtml\" style='position: absolute; left: 20px; top: 230px; padding: 0; margin: 0; width: 100%; font-size:24px; color: white; font-family: Georgia; width: 600px;' >This is a rough up to the moment total of what tax payers are paying for Donald Trump's personal life: security for his New York City home, vacations, travel for his grown children, and more.</p></foreignObject>"
+
+  ,"footer" : "<foreignObject  x='0' y='0' width='1024' height='512'><p xmlns=\"http://www.w3.org/1999/xhtml\" style='position: absolute; left: 20px; top: 400px; padding: 0; margin: 0; width: 100%; font-size:16px; color: white; font-family: Georgia; width: 600px; opacity: 0.8;' >For more information visit <u style=\"text-decoration: none; border-bottom: 1px solid white;\">trumptax.me</u></p></foreignObject>"
+
+  ,"js_moment" : "<script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js\"></script>"
+
+  ,"js_numeral" : "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.4/numeral.min.js\"></script>"
+
+  ,"js_calc": "<script>var baseline = 3000000 + 98000; var nycCostPerYear = 1000000.00 * 365; var msPerYear = 31536000000; var nycCostPerMs = nycCostPerYear / msPerYear; var trumpStartDate  = moment('Jan 20 2017 09:00:00 EST'); var now = moment([]); var elapsedTime = now.diff(trumpStartDate, 'milliseconds'); var valueAtBoot = (elapsedTime * nycCostPerMs) + baseline; var output = numeral(valueAtBoot).format('0,0.00'); var day = now.diff(trumpStartDate, 'days'); var today = now.format('MM/DD/YYYY');</script>"
+
+  ,"js_output" : "<script>document.getElementById('p_tax')[0].innerHTML = '$' + output; document.getElementById('p_date')[0].innerHTML = 'Trump Tax. Day ' + day + '. ' + today;</script>"
+}

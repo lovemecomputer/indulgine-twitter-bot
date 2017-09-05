@@ -1,0 +1,90 @@
+<svg id="svgparent" onload="init(event)" viewBox="0 0 1024 512" width="1024" height="512" style="background-color: #fff;" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+
+  <script type="text/ecmascript"><![CDATA[
+
+    <!-- color scheme -->
+    var dark = "#414141";
+    var blue = "#2328ff";
+    var blueFaded = "#f7f7ff";
+    var pink = "#9f81b3";
+    var pinkFaded = "#fbf0f8";
+
+    <!-- helper functions -->
+
+    function getRandomInt(min, max) {
+      return Math.floor(Math.random() * (max - min + 1) + min);
+    }
+
+
+    <!-- numbers -->
+    var width = 1024;
+    var height = 512;
+    var minPaths = 1;
+    var maxPaths = 8;
+    var numberOfHorizontalLines = getRandomInt(minPaths,maxPaths);
+
+
+    <!-- elements -->
+    var svgDocument,
+        wrapper;
+
+
+    <!-- functions -->
+
+    function insertCurvyPath(index, ypos) {
+      console.log(ypos)
+      newpath = document.createElementNS(document.rootElement.namespaceURI,"path");
+      newpath.setAttributeNS(null, "id", `curvyPath${index}`);
+      newpath.setAttributeNS(null, "d", `M -2,${ypos} C 40,96.428571 60.016862,131.64801 90.714286,132.85714 140.78762,133.7649 202.79376,66.16041 ${width+2},66.16041`);
+      <!-- newpath.setAttributeNS(null, "d", "M " + ypos + " C 19.285714,96.428571 24.016862,131.64801 90.714286,132.85714 140.78762,133.7649 202.79376,66.16041 202.79376,66.16041"); -->
+      newpath.setAttributeNS(null, "stroke", pink);
+      newpath.setAttributeNS(null, "stroke-width", .3);
+      newpath.setAttributeNS(null, "opacity", 1);
+      newpath.setAttributeNS(null, "fill", "none");
+      wrapper.appendChild(newpath);
+    }
+
+    function insertGlitchyPath(index, ypos) {
+      console.log(ypos)
+      newpath = document.createElementNS(document.rootElement.namespaceURI,"path");
+      newpath.setAttributeNS(null, "id", `glitchyPath${index}`);
+      newpath.setAttributeNS(null, "d", `M -2 ${ypos} h ${getRandomInt(20, 800)} v ${getRandomInt(0, 20)} h ${getRandomInt(20, 800)} v ${getRandomInt(0, 20)} h ${getRandomInt(20, 800)}`);
+      newpath.setAttributeNS(null, "stroke", dark);
+      newpath.setAttributeNS(null, "stroke-width", 2);
+      newpath.setAttributeNS(null, "stroke-linecap", "round");
+      <!-- newpath.setAttributeNS(null, "stroke-dasharray", "5,5"); -->
+      newpath.setAttributeNS(null, "opacity", 1);
+      newpath.setAttributeNS(null, "fill", "none");
+      wrapper.appendChild(newpath);
+    }
+
+    function init(event) {
+      svgDocument = event.target.ownerDocument
+      wrapper = document.getElementById("wrapper")
+      console.log(svgDocument, wrapper);
+      for(var i = 1; i <= numberOfHorizontalLines; i++) {
+        insertCurvyPath(i, getRandomInt(10, height-100));
+        insertGlitchyPath(i, getRandomInt(10, height-100));
+        <!-- insertGlitchyPath(i, i/maxPaths * 512); -->
+      }
+
+    }
+  ]]></script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Rubik');
+    text {
+      font-family: 'Rubik', sans-serif;
+      font-size: 20px;
+    }
+  </style>
+
+
+  <defs>
+
+  </defs>
+  <!-- <text x="100" y="100" >i’m just trying to log on</text> -->
+  <g id="wrapper"></g>
+
+</svg>
