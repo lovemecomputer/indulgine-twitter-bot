@@ -1,0 +1,79 @@
+{
+  "origin": ["#svgRoot#"],
+  "svgRoot": [
+    "<svg width=\"400\" height=\"200\" style=\"position: relative; background-color: rgb(255,255,255);\" > <defs>#svgStyle# #multiplyLayers#</defs> <g id=\"layer1\"
+    filter=\"url( \\#blend )\">#pattern# #glyphPosition# <text class=\"body\" x=\"20\" y=\"#rand#\">#sentence#</text></g></svg>"
+  ],
+  "svgStyle": [
+    "<style>@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,500'); text { font-family:'Rubik',sans-serif; font-weight:300; fill:rgb(65,65,65); font-size:28px; display:block; max-width:100%; } .body{} .glyph{font-size: 60px;} tspan{background-color:rgb(255,255,255);} .overlay{background-blend-mode: multiply; opacity:.3;} </style>"
+  ],
+  "pattern": [
+    "#shape# #pattern#",
+    "#shape# #shape#",
+    "#shape# #shape# #shape#",
+    "#shape# #pattern# #pattern# #shape#"
+  ],
+  "glyphPosition": [
+    " ",
+    " ",
+    " ",
+    "#makeGlyph#"
+  ],
+  "makeGlyph": [
+    "<text class=\"glyph\" x=\"#rand#\" y=\"#rand#\">#glyph#</text>"
+  ],
+  "maybeGlyph": [
+    " ",
+    " ",
+    " ",
+    " ",
+    "#glyph#"
+  ],
+  "shape": [
+    "<rect x=\"#rand#\" y=\"#rand#\" width=\"30\" height=\"30\" stroke=\"rgb(65,65,65)\" fill=\"transparent\" stroke-width=\"5\"/>",
+
+    "<rect x=\"#rand#\" y=\"#rand#\" width=\"#rand#\" height=\"#rand#\" stroke=\"#shapecolor#\" fill=\"#rand#\" fill-opacity=\"#rand#\" stroke-width=\"#rand#\"<polyline points=\"0 0, 20 20, 30 30, 30 10\" stroke-width=\"2\" fill=\"transparent\" stroke=\"rgb(65,65,65)\"/>",
+
+    "<line x1=\"#rand#\" x2=\"#rand#\" y1=\"#rand#\" y2=\"#rand#\" stroke=\"rgb(65,65,65)\" stroke-width=\"2\" stroke-linecap=\"round\"/>"
+  ],
+  "shapecolor": [
+    "rgb(247,247,255)",
+    "rgb(251,240,248)",
+    "rgb(255,255,255)"
+  ],
+  "action": [
+    "log on",
+    "test the waters",
+    "feel you",
+    "understand you",
+    "be whole",
+    "exist"
+  ],
+  "sentenceBackground": [
+    "<rect x=\"18\" y=\"#rand#\" width=\"#rand#\" height=\"30\" fill=\"white\" opacity=\".4\"/><rect x=\"18\" y=\"#rand#\" width=\"100%\" height=\"30\" fill=\"white\" fill-opacity=\".75\"/>"
+  ],
+  "rand": [
+    "20%",
+    "50%",
+    "80%"
+  ],
+  "multiplyLayers": [
+    "<rect id=\"overlay\" width=\"100%\" height=\"100%\" fill=\"rgb(255,255,255)\" /><filter id=\"blend\" x=\"0\" y=\"0\" width=\"100%\" height=\"100%\"><feImage xlink:href=\"#overlay\" result=\"rectangle\" /><feImage xlink:href=\"http://i.imgur.com/2LhcHBX.png\" width=\"100%\" height=\"100%\" result=\"strawberry\" /><feBlend mode=\"normal\" in=\"rectangle\" in2=\"strawberry\" /> </filter>"
+  ],
+  "glyph": [ "∅", "∆", "∢", "∡", "⨚", "∴", "∻", "⩥", "⫰", "⫯", "⫮", "⟜", "⟢", "⟣", "⦚", "⧬", "☼", "⧘", "☌", "☍", "⚯", "☊", "☭", "⚐" ],
+  "sentence": [
+    "#maybeGlyph#What do machines want? #computerAdjective.capitalize# #senseNoun#.",
+    "#maybeGlyph#Did you know? #computerAdjective.capitalize# #maybeGlyph##senseNoun# feel #maybeGlyph#good to computers.",
+    "#maybeGlyph#A.I.s sense #computerAdjective# #senseNoun#.",
+    "Robots #maybeGlyph#crave #computerAdjective# #senseNoun#.",
+    "#computerAdjective.capitalize# #senseNoun# help machines savor life.",
+    "Cyborgs enjoy #computerAdjective# #senseNoun#.",
+    "#maybeGlyph#Machines like #computerAdjective# #senseNoun#.",
+    "Bots #maybeGlyph#need #computerAdjective# #senseNoun#.",
+    "A.I.s feel #computerAdjective# #senseNoun#.",
+    "#maybeGlyph#Cyborgs #maybeGlyph#love #computerAdjective# #senseNoun#.",
+    "#computerAdjective.capitalize# #senseNoun# delight machines."
+  ],
+	"computerAdjective" : ["algorithmic", "artificial", "autonomous", "atomic", "beam-powered", "biometric", "biomimetic", "carbon-neutral", "cloud-based", "composite", "cryogenic", "digital", "distributed", "efficient", "electrical", "electronic", "evidence-based", "functional", "hard-wired", "hydraulic", "implanted", "ionized", "labor-saving", "manufactured", "mathematical", "motorized", "multiuser", "numeric", "on-board", "physics-based", "pneumatic", "precise", "programmable", "resonating", "robotic", "silicon", "spring-loaded", "stereoscopic", "synthetic", "transistorized", "trigonometric", "user-friendly", "voice-activated", "wireless"],
+	"senseNoun" : ["aromas", "breezes", "caresses", "conversations", "feelings", "flavors", "frissons", "harmonies", "hues", "images", "jokes", "morsels",  "landscapes", "laughter", "melodies", "narratives", "odors", "phrases", "poems", "portraits", "rhymes", "scents", "songs", "sounds", "strokes", "sensations",  "shivers", "stories", "sweetness", "tastes", "thrills", "tickles", "timbres", "tingles", "touches", "tones", "tunes", "urges", "vistas", "vibrations", "waves"]
+}

@@ -33,7 +33,7 @@
     var svgDocument,
         wrapper;
 
-    var glyps = [ "∅", "∆", "∢", "∡", "⨚", "∴", "∻", "⩥", "⫰", "⫯", "⫮", "⟜", "⟢", "⟣", "⦚", "⧬", "☼", "⧘", "☌", "☍", "⚯", "☊", "☭", "⚐" ];
+    var glyphs = [ "∅", "∆", "∢", "∡", "⨚", "∴", "∻", "⩥", "⫰", "⫯", "⫮", "⟜", "⟢", "⟣", "⦚", "⧬", "☼", "⧘", "☌", "☍", "⚯", "☊", "☭", "⚐" ];
 
 
     <!-- functions -->
@@ -63,14 +63,15 @@
       wrapper.appendChild(newpath);
     }
 
-    function insertText() {
+    function insertText(className, text, xpos, ypos,) {
       <!-- var newText = document.createElementNS(svgNS,"text"); -->
       var newText = document.createElementNS(document.rootElement.namespaceURI,"text");
-      newText.setAttributeNS(null,"x",100);
-      newText.setAttributeNS(null,"y",100);
+      newText.setAttributeNS(null,"x",xpos);
+      newText.setAttributeNS(null,"y",ypos);
+      newText.setAttributeNS(null,"class",className);
       <!-- newText.setAttributeNS(null,"font-size","100"); -->
 
-      var textNode = document.createTextNode("text");
+      var textNode = document.createTextNode(text);
       newText.appendChild(textNode);
       wrapper.appendChild(newText);
     }
@@ -83,7 +84,12 @@
         insertGlitchyPath(i, getRandomInt(10, height-100));
         <!-- insertGlitchyPath(i, i/maxPaths * 512); -->
       }
-      insertText();
+      var textXPos = getRandomInt(0, width/2);
+      var textYPos = getRandomInt(40, height-100);
+      insertText("firstLine", "Cyborgs love ", textXPos, textYPos);
+      var text2XPos = textXPos - getRandomInt(0, width/6);
+      if (text2XPos < 0) text2XPos = 0;
+      insertText("secondLine", "stereoscopic tingles.", text2XPos, textYPos + getRandomInt(40, height/6));
     }
   ]]></script>
 
@@ -91,17 +97,31 @@
     @import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,500');
     text {
       font-family: 'Rubik', sans-serif;
-      font-size: 40px;
+      font-size: 60px;
       font-weight: 300;
-      font-style: italic;
+      <!-- font-style: italic; -->
+    }
+    .secondLine {
+      font-weight: 500;
+      font-style: normal;
+      <!-- text-transform: uppercase; -->
+      font-size: 40px;
+      letter-spacing: .3em;
     }
   </style>
 
 
   <defs>
-
+    <rect id="overlay" width="100%" height="100%" fill="rgb(255,255,255)"/>
+    <filter id="blend" x="0" y="0" width="100%" height="100%">
+      <feImage xlink:href="#overlay" result="rectangle"/>
+      <feImage xlink:href="http://i.imgur.com/2LhcHBX.png" width="100%" height="100%" result="strawberry"/>
+      <feBlend mode="multiply" in="rectangle" in2="strawberry"/>
+    </filter>
   </defs>
   <!-- <text x="100" y="100" >i’m just trying to log on</text> -->
   <g id="wrapper"></g>
+  <!-- <g id="wrapper" filter="url(#blend)"></g> -->
+  <image xlink:href="http://i.imgur.com/2LhcHBX.png" width="100%" viewBox="0 0 20 10" style="display: block; width: 100%; mix-blend-mode: multiply;"/>
 
 </svg>

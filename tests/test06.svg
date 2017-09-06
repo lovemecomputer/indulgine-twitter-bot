@@ -1,0 +1,95 @@
+<svg id="svgparent" onload="init(event)" viewBox="0 0 1024 512" width="1024" height="512" style="background-color: #fff; display: block; transform:scale(.5); border: 1px solid #ccc; margin: 60px auto;" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+
+  <script xlink:href="test06.js" />
+  <script type="text/ecmascript"><![CDATA[
+    function init(event) {
+      initialization(event);
+    }
+  ]]></script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,500');
+    text {
+      font-family: 'Rubik', sans-serif;
+      font-size: 60px;
+      font-weight: 300;
+      <!-- font-style: italic; -->
+    }
+    .secondLine {
+      font-weight: 500;
+      font-style: normal;
+      <!-- text-transform: uppercase; -->
+      font-size: 40px;
+      letter-spacing: .3em;
+    }
+    .overlay {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+  </style>
+
+
+  <defs>
+    <filter id="blurMe1">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1"/>
+    </filter>
+    <filter id="blurMe2">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2"/>
+    </filter>
+
+    <filter id="dropShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/>
+      <feoffset in="blur" dx="4" dy="4" result="offsetBlur"/>
+    </filter>
+    <feMerge>
+      <feMergeNode in="offsetBlur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+
+
+    <filter id="turbulence1">
+      <feTurbulence baseFrequency=".5" type="fractalNoise" numOctaves="3" seed="0" result="Texture_10" />
+          <feColorMatrix type="matrix"
+          values="0 0 0 0 0,
+          0 0 0 0 0,
+          0 0 0 0 0,
+          0 0 0 -2.1 1.1" in="Texture_10"  result="Texture_20" />
+
+          <feColorMatrix result="Texture_30" type="matrix"
+          values="0 0 0 0 0,
+          0 0 0 0 0,
+          0 0 0 0 0,
+          0 0 0 -1.7 1.8" in="Texture_10" />
+      <feMorphology operator="dilate" radius="1" in="SourceAlpha" result="OUTLINE_10" />
+      <!-- <feComposite operator="out" in="OUTLINE_10" in2 = "SourceAlpha" result="OUTLINE_20" /> -->
+      <feDisplacementMap scale="7" in="OUTLINE_20" in2="Texture_10" result="OUTLINE_30" />
+      <feComposite operator="arithmetic" k2="-1" k3="1" in="Texture_20" in2="OUTLINE_30" result="OUTLINE_40" />
+    </filter>
+
+
+    <filter id="turbulence2">
+      <feTurbulence baseFrequency=".01" type="fractalNoise" numOctaves="3" seed="0" result="Texture_10" />
+          <feColorMatrix type="matrix"
+          values="0 0 0 0 0,
+          0 0 0 0 0,
+          0 0 0 0 0,
+          0 0 0 -2.1 1.1" in="Texture_10"  result="Texture_20" />
+
+          <feColorMatrix result="Texture_30" type="matrix"
+          values="0 0 0 0 0,
+          0 0 0 0 0,
+          0 0 0 0 0,
+          0 0 0 -1.7 1.8" in="Texture_10" />
+      <feMorphology operator="dilate" radius=".1" in="SourceAlpha" result="OUTLINE_10" />
+      <!-- <feComposite operator="out" in="OUTLINE_10" in2 = "SourceAlpha" result="OUTLINE_20" /> -->
+      <feDisplacementMap scale="7" in="OUTLINE_20" in2="Texture_10" result="OUTLINE_30" />
+      <feComposite operator="arithmetic" k2="-1" k3="1" in="Texture_20" in2="OUTLINE_30" result="OUTLINE_40" />
+    </filter>
+  </defs>
+
+
+  <g id="wrapper"></g>
+
+</svg>
