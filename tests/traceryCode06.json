@@ -1,0 +1,17 @@
+{
+	"sentence": [
+    "What do machines want?  #computerAdjective.capitalize# #senseNoun#.",
+    "Did you know? #computerAdjective.capitalize# #senseNoun# feel good to computers.",
+    "A.I.s can sense #computerAdjective# #senseNoun#.",
+    "#computerAdjective.capitalize# #senseNoun# help machines savor life.",
+    "Cyborgs enjoy #computerAdjective# #senseNoun#.",
+    "Androids dream of #computerAdjective# #senseNoun#.",
+    "#computerAdjective.capitalize# #senseNoun# are what robots crave.",
+    "Listen. Bots need #computerAdjective# #senseNoun#.",
+    "A.I.s like feeling #computerAdjective# #senseNoun#.",
+    "Of course cyborgs love #computerAdjective# #senseNoun#.",
+    "#computerAdjective.capitalize# #senseNoun# delight machines."
+  ],
+	"computerAdjective" : ["algorithmic", "artificial", "autonomous", "atomic", "beam-powered", "biometric", "biomimetic", "carbon-neutral", "cloud-based", "composite", "cryogenic", "cybernetic", "digital", "distributed", "efficient", "electrical", "electronic", "evidence-based", "functional", "hard-wired", "hydraulic", "implanted", "ionized", "labor-saving", "manufactured", "mathematical", "motorized", "multiuser", "numeric", "on-board", "physics-based", "pneumatic", "positronic", "precise", "programmable", "resonating", "robotic", "silicon", "spring-loaded", "stereoscopic", "synthetic", "transistorized", "trigonometric", "user-friendly", "voice-activated", "wireless"],
+	"senseNoun" : ["aromas", "breezes", "caresses", "conversations", "feelings", "flavors", "frissons", "harmonies", "hues", "images", "jokes", "morsels",  "landscapes", "laughter", "melodies", "narratives", "odors", "phrases", "poems", "portraits", "rhymes", "scents", "songs", "sounds", "strokes", "sensations",  "shivers", "stories", "sweetness", "tastes", "thrills", "tickles", "timbres", "tingles", "touches", "tones", "tunes", "urges", "vistas", "vibrations", "waves"]
+}
