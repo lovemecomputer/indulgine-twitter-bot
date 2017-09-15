@@ -150,21 +150,23 @@ function initialization(event) {
   }
 
   // insert text
+  var firstPhrase = "Robots crave"
+  var secondPhrase = "autonomous portraits."
   var textXPos = getRandomInt(0, width / 2 - 100);
   var textYPos = getRandomInt(40, height - 100);
-  var firstLine = insertText("firstLine", "What do machines want?", textXPos, textYPos);
+  var firstLine = insertText("firstLine", firstPhrase, textXPos, textYPos);
   var text2XPos = textXPos + getRandomInt(-(width / 6), width / 6);
   var text2YPos =  textYPos + getRandomInt(23, height / 6);
   if (text2XPos < 0) text2XPos = 0;
   if (text2XPos > width/3+40) text2XPos = width/3+40;
-  var secondLine = insertText("secondLine", "stereoscopic tingles.", text2XPos, text2YPos);
+  var secondLine = insertText("secondLine", secondPhrase, text2XPos, text2YPos);
 
   // chance repeat text from second line
   if(randomChance(.34)) {
     var newYPos = text2YPos;
     while(newYPos < 512) {
       newYPos += text2YPos - textYPos;
-      var repeated = insertText("secondLine", "stereoscopic tingles.", text2XPos, newYPos);
+      var repeated = insertText("secondLine", secondPhrase, text2XPos, newYPos);
 
       // outline or opacity adjustment
       if(randomChance(.5)) {

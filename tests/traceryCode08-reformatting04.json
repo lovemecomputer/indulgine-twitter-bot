@@ -1,0 +1,39 @@
+{
+"origin": ["#svgRoot#"],
+"svgRoot": [
+    "{svg <svg onload=\"#initialization()#\" onmousedown=\"#initialization()#\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"1024\" height=\"512\" viewBox=\"0 0 1024 512\"><style>@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,500');.sketchy text \\\\{ font-style: italic; \\\\} .overlay \\\\{ width: 100%; height: 100%; display: block; \\\\} </style><rect x=\"0\" y=\"0\" width=\"100%\" height=\"99.9%\" fill=\"white\"/><g id=\"wrapper\" fill=\"rgb(65,65,65)\" style=\"font-family: 'Rubik', sans-serif; font-size: 42px; font-weight: 300;\">#sentence#</g><script xlink:href=\"http://loveme.computer/files/indulgine04.js\"/><script type=\"text/javascript\">#script#</script></svg>}"
+  ],
+
+"sentence": [
+    "#__1_#What do machines want?#_e1__##__2_##computerAdjective.capitalize# #senseNoun#.#_e2__#",
+    "#didYouKnow##__1_##computerAdjective.capitalize# #senseNoun##_e1__##__2_#feel good to computers.#_e2__#",
+    "#__1_#A.I.s can sense#_e1__##__2_##computerAdjective# #senseNoun#.#_e2__#",
+    "#__1_##computerAdjective.capitalize# #senseNoun##_e1__##__2_#help machines savor life.#_e2__#",
+    "#__1_#Cyborgs enjoy#_e1__##__2_##computerAdjective# #senseNoun#.#_e2__#",
+    "#__1_#Androids dream of#_e1__##__2_##computerAdjective# #senseNoun#.#_e2__#",
+    "#__1_##computerAdjective.capitalize# #senseNoun##_e1__##__2_#are what robots crave.#_e2__#",
+    "#__1_#Listen. Bots need#_e1__##__2_##computerAdjective# #senseNoun#.#_e2__#",
+    "#__1_#A.I.s like feeling#_e1__##__2_##computerAdjective# #senseNoun#.#_e2__#",
+    "#__1_#Of course cyborgs love#_e1__##__2_##computerAdjective# #senseNoun#.#_e2__#",
+    "#__1_##computerAdjective.capitalize# #senseNoun##_e1__##__2_#delight machines.#_e2__#"
+  ],
+
+"computerAdjective" : [
+  "algorithmic", "artificial", "autonomous", "atomic", "beam-powered", "biometric", "biomimetic", "carbon-neutral", "cloud-based", "composite", "cryogenic", "cybernetic", "digital", "distributed", "efficient", "electrical", "electronic", "evidence-based", "functional", "hard-wired", "hydraulic", "implanted", "ionized", "labor-saving", "manufactured", "mathematical", "motorized", "multiuser", "numeric", "on-board", "physics-based", "pneumatic", "positronic", "precise", "programmable", "resonating", "robotic", "silicon", "spring-loaded", "stereoscopic", "synthetic", "transistorized", "trigonometric", "user-friendly", "voice-activated", "wireless"
+],
+
+"senseNoun" : [
+  "aromas", "breezes", "caresses", "conversations", "feelings", "flavors", "frissons", "harmonies", "hues", "images", "jokes", "morsels",  "landscapes", "laughter", "melodies", "narratives", "odors", "phrases", "poems", "portraits", "rhymes", "scents", "songs", "sounds", "strokes", "sensations",  "shivers", "stories", "sweetness", "tastes", "thrills", "tickles", "timbres", "tingles", "touches", "tones", "tunes", "urges", "vistas", "vibrations", "waves"
+],
+
+"didYouKnow" :
+  "<rect x=\"20\" y=\"20\" width=\"160\" height=\"30\" fill=\"rgb(65,65,65)\"/><text id=\"textTag\" y=\"40\" x=\"26\" style=\"text-transform: uppercase; font-weight: bold; font-size: 16px; fill: white;\\\\\">▢ Did you know?</text> ",
+
+
+
+"__1_": "<text id=\"firstLine\" y=\"200\" x=\"0\">",
+"_e1__": "</text>",
+"__2_": "<text id=\"secondLine\" y=\"240\" x=\"0\" style=\"font-weight: 500; font-style: normal; font-size: 24px; letter-spacing: .3em;\">",
+"_e2__": "</text>",
+"script": "var dark = '\\#414141'; var blue = '\\#2328ff'; var blueFaded = '\\#f7f7ff'; var pink = '\\#9f81b3'; var pinkFaded = '\\#fbf0f8'; var width = 1024; var height = 512; var minPaths = 1; var maxPaths = 8; var numberOfHorizontalLines; var sketchy = false; var wrapper; function getRandom(min, max) \\\\{ return Math.random() * (max - min) + min; \\\\} function getRandomInt(min, max) \\\\{ return Math.floor(Math.random() * (max - min + 1) + min); \\\\} function randomChance(odds) \\\\{ var roll = Math.random(); return odds > roll ? true : false \\\\} function insertCurvyPath(parent, index, ypos) \\\\{ newpath = document.createElementNS('http://www.w3.org/2000/svg', 'path'); newpath.setAttributeNS(null, 'id', `curvyPath$\\\\{index\\\\}`); newpath.setAttributeNS(null, 'd', `M -2,$\\\\{ypos\\\\} C $\\\\{getRandomInt(20, 800)\\\\},$\\\\{getRandomInt(20, 800)\\\\} $\\\\{getRandomInt(20, 800)\\\\},$\\\\{getRandomInt(20, 800)\\\\} $\\\\{getRandomInt(20, 800)\\\\},$\\\\{getRandomInt(20, 800)\\\\} $\\\\{getRandomInt(20, 800)\\\\},$\\\\{getRandomInt(20, 800)\\\\} $\\\\{getRandomInt(20, 800)\\\\},$\\\\{getRandomInt(20, 800)\\\\} $\\\\{getRandomInt(20, 800)\\\\},$\\\\{getRandomInt(20, 800)\\\\}`); newpath.setAttributeNS(null, 'stroke', pink); newpath.setAttributeNS(null, 'stroke-width', getRandom(.1, 1)); newpath.setAttributeNS(null, 'opacity', getRandom(.3, .8)); newpath.setAttributeNS(null, 'fill', 'none'); if(sketchy) newpath.setAttributeNS(null, 'filter', 'url(\\#turbulence2)'); parent.appendChild(newpath); \\\\} function initialization() \\\\{ wrapper = document.getElementById('wrapper'); insertCurvyPath(wrapper, 2,200); \\\\} initialization();"
+}

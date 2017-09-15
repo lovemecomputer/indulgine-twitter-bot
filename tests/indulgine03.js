@@ -38,8 +38,7 @@ var sketchy = false;
 
 
 // elements
-var svgDocument,
-  wrapper;
+var wrapper;
 
 var glyphs = ["∅", "∆", "∢", "∡", "⨚", "∴", "∻", "⩥", "⫰", "⫯", "⫮", "⟜", "⟢", "⟣", "⦚", "⧬", "☼", "⧘", "☌", "☍", "⚯", "☊", "☭", "⚐"];
 
@@ -135,8 +134,8 @@ function insertImage(className, imageLink, blendMode, xpos, ypos, width) {
 // start image generation
 
 
-function initialization(event) {
-  svgDocument = event.target.ownerDocument
+function initialization() {
+  // svgDocument = event.target.ownerDocument
   wrapper = document.getElementById("wrapper")
 
   if(randomChance(.4)) sketchy = true;
@@ -193,3 +192,6 @@ function initialization(event) {
   if(randomChance(.1)) wrapper.setAttributeNS(null, 'filter', 'url(#blurMe1)');
   // document.getElementById('blurMe').querySelector('feGaussianBlur').setAttribute(null, 'stdDeviation', 5)
 }
+
+SetTimeout(initialization(), 0);
+console.log('TESSST');
