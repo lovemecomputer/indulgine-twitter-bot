@@ -1,41 +1,34 @@
 {
-  "origin": ["#[chosenPhrase:#sentence#]svgRoot#"],
+  "origin": ["#svgRoot#"],
   "svgRoot": [
-    "#chosenPhrase#{svg <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"#basew#\" height=\"#baseh#\" viewBox=\"0 0 #basew# #baseh#\"><style>@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,500');</style><rect x=\"0\" y=\"0\" width=\"100%\" height=\"99.9%\" fill=\"white\"/><g id=\"wrapper\" fill=\"rgb(65,65,65)\" style=\"font-family: 'Rubik', sans-serif; font-size: 42px; font-weight: 300;\" #applyBlur#><defs>#filters#</defs>#paths##compiledSentence#</g></svg>}"
+    "{svg <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"#basew#\" height=\"#baseh#\" viewBox=\"0 0 #basew# #baseh#\"><style>@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,500');</style><rect x=\"0\" y=\"0\" width=\"100%\" height=\"99.9%\" fill=\"white\"/><g id=\"wrapper\" fill=\"rgb(65,65,65)\" style=\"font-family: 'Rubik', sans-serif; font-size: 42px; font-weight: 300;\" #applyBlur#><defs>#filters#</defs>#paths##sentence#</g></svg>}"
   ],
 
-  "compiledSentence": [
-    "#didYouKnow##__1_##sentence##_e2__#"
-  ],
 
   "sentence": [
-    "What do machines want?#_e1__##__2_##computerAdjective.capitalize# #senseNoun#.",
-    "#computerAdjective.capitalize# #senseNoun##_e1__##__2_#feel good to computers.",
-    "A.I.s can sense#_e1__##__2_##computerAdjective# #senseNoun#.",
-    "#computerAdjective.capitalize# #senseNoun##_e1__##__2_#help machines savor life.",
-    "Cyborgs enjoy#_e1__##__2_##computerAdjective# #senseNoun#.",
-    "Androids dream of#_e1__##__2_##computerAdjective# #senseNoun#.",
-    "#computerAdjective.capitalize# #senseNoun##_e1__##__2_#are what robots crave.",
-    "Listen. Bots need#_e1__##__2_##computerAdjective# #senseNoun#.",
-    "A.I.s like feeling#_e1__##__2_##computerAdjective# #senseNoun#.",
-    "Of course cyborgs love#_e1__##__2_##computerAdjective# #senseNoun#.",
-    "#computerAdjective.capitalize# #senseNoun##_e1__##__2_#delight machines."
+    "#__1_#What do machines want?#_e1__##__2_##computerAdjective.capitalize# #senseNoun#.#_e2__#",
+    "#didYouKnow##__1_##computerAdjective.capitalize# #senseNoun##_e1__##__2_#feel good to computers.#_e2__#",
+    "#__1_#A.I.s can sense#_e1__##__2_##computerAdjective# #senseNoun#.#_e2__#",
+    "#__1_##computerAdjective.capitalize# #senseNoun##_e1__##__2_#help machines savor life.#_e2__#",
+    "#__1_#Cyborgs enjoy#_e1__##__2_##computerAdjective# #senseNoun#.#_e2__#",
+    "#__1_#Androids dream of#_e1__##__2_##computerAdjective# #senseNoun#.#_e2__#",
+    "#__1_##computerAdjective.capitalize# #senseNoun##_e1__##__2_#are what robots crave.#_e2__#",
+    "#__1_#Listen. Bots need#_e1__##__2_##computerAdjective# #senseNoun#.#_e2__#",
+    "#__1_#A.I.s like feeling#_e1__##__2_##computerAdjective# #senseNoun#.#_e2__#",
+    "#__1_#Of course cyborgs love#_e1__##__2_##computerAdjective# #senseNoun#.#_e2__#",
+    "#__1_##computerAdjective.capitalize# #senseNoun##_e1__##__2_#delight machines.#_e2__#"
   ],
 
 
   "computerAdjective": [
-    "algorithmic", "artificial", "autonomous", "atomic", "beam-powered", "biometric", "biomimetic", "carbon-neutral", "cloud-based", "composite", "cryogenic", "cybernetic", "digital", "distributed", "efficient", "electrical", "electronic", "evidence-based", "functional", "hard-wired", "hydraulic", "implanted", "ionized", "labor-saving", "manufactured", "mathematical", "motorized", "multiuser", "numeric", "on-board", "physics-based", "pneumatic", "positronic", "precise", "programmable", "resonating", "robotic", "silicon", "spring-loaded", "stereoscopic", "synthetic", "transistorized", "trigonometric", "user-friendly", "voice-activated", "wireless", "synthesized", "lead-lined", "water-cooled", "logarithmic", "interpolated", "crystalline", "plug-and-play", "hot-swappable", "mutable", "immutable", "random access", "ionized", "charged", "olfactory", "ergodic"
+    "algorithmic", "artificial", "autonomous", "atomic", "beam-powered", "biometric", "biomimetic", "carbon-neutral", "cloud-based", "composite", "cryogenic", "cybernetic", "digital", "distributed", "efficient", "electrical", "electronic", "evidence-based", "functional", "hard-wired", "hydraulic", "implanted", "ionized", "labor-saving", "manufactured", "mathematical", "motorized", "multiuser", "numeric", "on-board", "physics-based", "pneumatic", "positronic", "precise", "programmable", "resonating", "robotic", "silicon", "spring-loaded", "stereoscopic", "synthetic", "transistorized", "trigonometric", "user-friendly", "voice-activated", "wireless"
   ],
 
   "senseNoun": [
-    "aromas", "breezes", "caresses", "conversations", "feelings", "flavors", "frissons", "harmonies", "hues", "images", "jokes", "morsels", "landscapes", "laughter", "melodies", "narratives", "odors", "phrases", "poems", "portraits", "rhymes", "scents", "songs", "sounds", "strokes", "sensations", "shivers", "stories", "sweetness", "tastes", "thrills", "tickles", "timbres", "tingles", "touches", "tones", "tunes", "urges", "vistas", "vibrations", "waves", "minerals", "algorithms", "entities", "variables", "components", "chips", "implants", "charges", "arrays", "dyads", "vectors", "matrices", "gradients"
+    "aromas", "breezes", "caresses", "conversations", "feelings", "flavors", "frissons", "harmonies", "hues", "images", "jokes", "morsels", "landscapes", "laughter", "melodies", "narratives", "odors", "phrases", "poems", "portraits", "rhymes", "scents", "songs", "sounds", "strokes", "sensations", "shivers", "stories", "sweetness", "tastes", "thrills", "tickles", "timbres", "tingles", "touches", "tones", "tunes", "urges", "vistas", "vibrations", "waves"
   ],
 
-  "didYouKnow":
-    [
-      "", "", "", "", "", "", "", "", "",
-      "<rect x=\"20\" y=\"20\" width=\"160\" height=\"30\" fill=\"rgb(65,65,65)\"/><text id=\"textTag\" y=\"40\" x=\"26\" style=\"text-transform: uppercase; font-weight: bold; font-size: 16px; fill: white;\">▢ Did you know?</text> "
-    ],
+  "didYouKnow": "<rect x=\"20\" y=\"20\" width=\"160\" height=\"30\" fill=\"rgb(65,65,65)\"/><text id=\"textTag\" y=\"40\" x=\"26\" style=\"text-transform: uppercase; font-weight: bold; font-size: 16px; fill: white;\">▢ Did you know?</text> ",
 
 
 
@@ -54,7 +47,7 @@
     "#squigglyPath##glitchyPath#"
   ],
 
-  "squigglyPath" : [ "<path class=\"curvyPath\" #applyturbulence2# d=\"M -2, #10to490# C #20to800#,#20to800# #20to800#,#20to800# #20to800#,#20to800# #20to800#,#20to800# #20to800#,#20to800# #20to800#,#20to800#\" stroke=\"\\##purple#\" stroke-width=\"#0-1##pointOnetoPoint9#\" opacity=\".#0-7#\" fill=\"none\"></path>" ],
+  "squigglyPath" : [ "<path class=\"curvyPath\" #applyturbulence2# d=\"M -2, #10to490# C #20to800#,#20to800# #20to800#,#20to800# #20to800#,#20to800# #20to800#,#20to800# #20to800#,#20to800# #20to800#,#20to800#\" stroke=\"\\##purple#\" stroke-width=\"#pointOnetoPoint9#\" opacity=\".#0-7#\" fill=\"none\"></path>" ],
 
   "glitchyPath" : [ "<path class=\"glitchyPath\" #applyturbulence1# d=\"M -2, #10to490# h #20to650# v #0-2##digit# h #20to800# v #0-2##digit# h #20to800#\" stroke=\"\\##dark#\" stroke-width=\"#0-1#.#0-5#\" stroke-linecap=\"round\" opacity=\"1\" fill=\"none\"></path>" ],
 

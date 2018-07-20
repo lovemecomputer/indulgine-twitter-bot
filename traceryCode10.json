@@ -1,7 +1,29 @@
 {
-  "origin": ["#[chosenPhrase:#sentence#]svgRoot#"],
+
+"phrase": [
+  "What do machines want? #chosenAdjective.capitalize# #chosenNoun#.",
+  "#chosenAdjective.capitalize# #chosenNoun# feel good to computers.",
+  "A.I.s can sense #chosenAdjective# #chosenNoun#.",
+  "#chosenAdjective.capitalize# #chosenNoun# help machines savor life.",
+  "Cyborgs enjoy #chosenAdjective# #chosenNoun#.",
+  "Androids dream of #chosenAdjective# #chosenNoun#.",
+  "#chosenAdjective.capitalize# #chosenNoun# are what robots crave.",
+  "Listen. Bots need #chosenAdjective# #chosenNoun#.",
+  "A.I.s like feeling #chosenAdjective# #chosenNoun#.",
+  "Of course cyborgs love #chosenAdjective# #chosenNoun#.",
+  "#chosenAdjective.capitalize# #chosenNoun# delight machines."
+]
+
+, "chosenSentence": ["#phrase# $chosen words: #chosenAdjective# #chosenNoun# "]
+
+,	"origin": ["#[chosenAdjective:#computerAdjective#][chosenNoun:#senseNoun#]chosenSentence#"]
+
+
+,
+
+
   "svgRoot": [
-    "#chosenPhrase#{svg <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"#basew#\" height=\"#baseh#\" viewBox=\"0 0 #basew# #baseh#\"><style>@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,500');</style><rect x=\"0\" y=\"0\" width=\"100%\" height=\"99.9%\" fill=\"white\"/><g id=\"wrapper\" fill=\"rgb(65,65,65)\" style=\"font-family: 'Rubik', sans-serif; font-size: 42px; font-weight: 300;\" #applyBlur#><defs>#filters#</defs>#paths##compiledSentence#</g></svg>}"
+    "{svg <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"#basew#\" height=\"#baseh#\" viewBox=\"0 0 #basew# #baseh#\"><style>@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,500');</style><rect x=\"0\" y=\"0\" width=\"100%\" height=\"99.9%\" fill=\"white\"/><g id=\"wrapper\" fill=\"rgb(65,65,65)\" style=\"font-family: 'Rubik', sans-serif; font-size: 42px; font-weight: 300;\" #applyBlur#><defs>#filters#</defs>#paths##compiledSentence#</g></svg>}"
   ],
 
   "compiledSentence": [
@@ -21,7 +43,6 @@
     "Of course cyborgs love#_e1__##__2_##computerAdjective# #senseNoun#.",
     "#computerAdjective.capitalize# #senseNoun##_e1__##__2_#delight machines."
   ],
-
 
   "computerAdjective": [
     "algorithmic", "artificial", "autonomous", "atomic", "beam-powered", "biometric", "biomimetic", "carbon-neutral", "cloud-based", "composite", "cryogenic", "cybernetic", "digital", "distributed", "efficient", "electrical", "electronic", "evidence-based", "functional", "hard-wired", "hydraulic", "implanted", "ionized", "labor-saving", "manufactured", "mathematical", "motorized", "multiuser", "numeric", "on-board", "physics-based", "pneumatic", "positronic", "precise", "programmable", "resonating", "robotic", "silicon", "spring-loaded", "stereoscopic", "synthetic", "transistorized", "trigonometric", "user-friendly", "voice-activated", "wireless", "synthesized", "lead-lined", "water-cooled", "logarithmic", "interpolated", "crystalline", "plug-and-play", "hot-swappable", "mutable", "immutable", "random access", "ionized", "charged", "olfactory", "ergodic"

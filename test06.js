@@ -126,7 +126,7 @@ function insertImage(className, imageLink, blendMode, xpos, ypos, width) {
   if(randomChance(.3)) {
     svgimg.setAttributeNS(null,'transform', `rotate(${getRandom(-10,10)})`);
     svgimg.setAttributeNS(null,'x', `${getRandom(-120,120)}`);
-    svgimg.setAttributeNS(null,'y', `${getRandom(-120,120)}`);
+    svgimg.setAttributeNS(undefined,'y', `${getRandom(-120,120)}`);
   }
   wrapper.appendChild(svgimg);
 }
