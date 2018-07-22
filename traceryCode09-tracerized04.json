@@ -59,7 +59,7 @@
   "glitchyPath" : [ "<path class=\"glitchyPath\" #applyturbulence1# d=\"M -2, #10to490# h #20to650# v #0-2##digit# h #20to800# v #0-2##digit# h #20to800#\" stroke=\"\\##dark#\" stroke-width=\"#0-1#.#0-5#\" stroke-linecap=\"round\" opacity=\"1\" fill=\"none\"></path>" ],
 
 
-  "purple" : [ "9f81b3" ],
+  "purple" : [ "9fa1b3" ],
   "dark" : [ "414141" ],
 
   "text2Filters" : [
