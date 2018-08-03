@@ -1,3 +1,3 @@
-twitter bot authored by heather kelly and audrey moon
+twitter bot authored by heather kelley and audrey moon
 
 https://twitter.com/indulgine
