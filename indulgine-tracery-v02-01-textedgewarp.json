@@ -5,7 +5,7 @@
   ],
 
   "compiledPhrase": [
-    "#__p1_##chosenPhrase##_ep1__#<g y=\"0\" x=\"0\" transform=\"translate(#40to400#,#80to400#)\" #applyturbulence2#><text opacity=\".25\" #applyturbulence2# #repeatedTextStyles# >#chosenPhrase##chosenPhrase##chosenPhrase##chosenPhrase##chosenPhrase#</text></g>"
+    "#__p1_##chosenPhrase#</text><g y=\"0\" x=\"0\" transform=\"translate(-1026,42)\" opacity=\"1\"><text #applyturbulence2# id=\"firstLine\" y=\"0\" x=\"0\" fill=\"#dark#\"  style=\"font-family: Rubik, sans-serif; font-size: 42px; font-weight:300; font-style: #italicStyle#;\">#chosenPhrase#</text></g></g>"
   ],
 
   "repeatedTextStyles": [

@@ -1,0 +1,41 @@
+  "compiledPhrase": [
+    "#__p1_##chosenPhrase##_ep1__#<g y=\"0\" x=\"0\" transform=\"translate(#40to400#,#80to400#)\" #applyturbulence2#><text opacity=\".25\" #applyturbulence2# #repeatedTextStyles# >#chosenPhrase#<tspan x=\"0\" dy=\"1.2em\">#chosenPhrase#</tspan><tspan x=\"0\" dy=\"1.2em\">#chosenPhrase#</tspan><tspan x=\"0\" dy=\"1.2em\">#chosenPhrase#</tspan><tspan x=\"0\" dy=\"1.2em\">#chosenPhrase#</tspan><tspan x=\"0\" dy=\"1.2em\">#chosenPhrase#</tspan><tspan x=\"0\" dy=\"1.2em\">#chosenPhrase#</tspan><tspan x=\"0\" dy=\"1.2em\">#chosenPhrase#</tspan><tspan x=\"0\" dy=\"1.2em\">#chosenPhrase#</tspan><tspan x=\"0\" dy=\"1.2em\">#chosenPhrase#</tspan><tspan x=\"0\" dy=\"1.2em\">#chosenPhrase#</tspan><tspan x=\"0\" dy=\"1.2em\">#chosenPhrase#</tspan><tspan x=\"0\" dy=\"1.2em\">#chosenPhrase#</tspan><tspan x=\"0\" dy=\"1.2em\">#chosenPhrase#</tspan><tspan x=\"0\" dy=\"1.2em\">#chosenPhrase#</tspan></text></g>"
+  ],
+
+
+
+
+
+ "phrases": [
+    "What do machines want? #computerAdjective.capitalize# #senseNoun#.",
+    "#computerAdjective.capitalize# #senseNoun# feel good to computers.",
+    "A.I.s can sense #computerAdjective# #senseNoun#.",
+    "#computerAdjective.capitalize# #senseNoun# help machines savor life.",
+    "Cyborgs enjoy #computerAdjective# #senseNoun#.",
+    "Androids dream of #computerAdjective# #senseNoun#.",
+    "#computerAdjective.capitalize# #senseNoun# are what robots crave.",
+    "Listen. Bots need #computerAdjective# #senseNoun#.",
+    "A.I.s like feeling #computerAdjective# #senseNoun#.",
+    "Of course cyborgs love #computerAdjective# #senseNoun#.",
+    "#computerAdjective.capitalize# #senseNoun# delight machines."
+  ],
+
+
+ "phrases": [
+    "<tspan x=\"0\" dy=\"1.2em\">What do machines want? </tspan><tspan x=\"0\" dy=\"1.2em\">#computerAdjective.capitalize# #senseNoun#.</tspan>",
+    "<tspan x=\"0\" dy=\"1.2em\">#computerAdjective.capitalize# #senseNoun# </tspan><tspan x=\"0\" dy=\"1.2em\">feel good to computers.</tspan>",
+    "<tspan x=\"0\" dy=\"1.2em\">A.I.s can sense </tspan><tspan x=\"0\" dy=\"1.2em\">#computerAdjective# #senseNoun#.</tspan>",
+    "<tspan x=\"0\" dy=\"1.2em\">#computerAdjective.capitalize# #senseNoun# </tspan><tspan x=\"0\" dy=\"1.2em\">help machines savor life.</tspan>",
+    "<tspan x=\"0\" dy=\"1.2em\">Cyborgs enjoy </tspan><tspan x=\"0\" dy=\"1.2em\">#computerAdjective# #senseNoun#.</tspan>",
+    "<tspan x=\"0\" dy=\"1.2em\">Androids dream of </tspan><tspan x=\"0\" dy=\"1.2em\">#computerAdjective# #senseNoun#.</tspan>",
+    "<tspan x=\"0\" dy=\"1.2em\">#computerAdjective.capitalize# #senseNoun# </tspan><tspan x=\"0\" dy=\"1.2em\">are what robots crave.</tspan>",
+    "<tspan x=\"0\" dy=\"1.2em\">Listen. Bots need </tspan><tspan x=\"0\" dy=\"1.2em\">#computerAdjective# #senseNoun#.</tspan>",
+    "<tspan x=\"0\" dy=\"1.2em\">A.I.s like feeling </tspan><tspan x=\"0\" dy=\"1.2em\">#computerAdjective# #senseNoun#.</tspan>",
+    "<tspan x=\"0\" dy=\"1.2em\">Of course cyborgs love </tspan><tspan x=\"0\" dy=\"1.2em\">#computerAdjective# #senseNoun#.</tspan>",
+    "<tspan x=\"0\" dy=\"1.2em\">#computerAdjective.capitalize# #senseNoun# </tspan><tspan x=\"0\" dy=\"1.2em\">delight machines.</tspan>"
+  ],
+
+  "compiledPhrase": [
+    "#__p1_##chosenPhrase##_ep1__#<g y=\"0\" x=\"0\" transform=\"translate(-200,-20)\" opacity=\".45\">#__p1_##chosenPhrase##_ep1__#</g>",
+    "#__p1_##chosenPhrase##_ep1__#<g y=\"0\" x=\"0\" transform=\"translate(-200,-20)\">#__p1_##chosenPhrase##_ep1__#</g><g y=\"0\" x=\"0\" transform=\"translate(#40to400#,#80to400#)\" #applyturbulence2#><text opacity=\".25\" #applyturbulence2# #repeatedTextStyles# >#chosenPhrase##chosenPhrase##chosenPhrase##chosenPhrase##chosenPhrase#</text></g>"
+  ],
