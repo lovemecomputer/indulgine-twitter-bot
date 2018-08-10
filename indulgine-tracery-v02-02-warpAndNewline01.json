@@ -1,12 +1,12 @@
 {
   "origin": ["#[chosenPhrase:#phrases#]svgRoot#"],
   "svgRoot": [
-    "#chosenPhrase#{svg <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.2\" width=\"#basew#\" height=\"#baseh#\" viewBox=\"0 0 #basew# #baseh#\"><style>@import url('https://fonts.googleapis.com/css?family=Rubik:300,500,300i,500i');</style><rect x=\"0\" y=\"0\" width=\"100%\" height=\"99.9%\" fill=\"white\"/><g id=\"wrapper\" fill=\"rgb(65,65,65)\" #applyBlur#><defs>#filters#</defs>#paths#</g>#didYouKnow##compiledPhrase##overlayImage#</svg>}"
+    "#chosenPhrase#{svg <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"#basew#\" height=\"#baseh#\" viewBox=\"0 0 #basew# #baseh#\"><style>@import url('https://fonts.googleapis.com/css?family=Rubik:300,500,300i,500i');</style><rect x=\"0\" y=\"0\" width=\"100%\" height=\"99.9%\" fill=\"white\"/><g id=\"wrapper\" fill=\"rgb(65,65,65)\" #applyBlur#><defs>#filters#</defs>#paths##didYouKnow##compiledPhrase##overlayImage#</g></svg>}"
   ],
 
   "compiledPhrase": [
-    "#__p1_##chosenPhrase##_ep1__#",
-    "#__p1_##chosenPhrase##_ep1__#<g y=\"0\" x=\"0\" transform=\"translate(#40to400#,#80to400#)\" #applyturbulence2#><text opacity=\".25\" #applyturbulence2# #repeatedTextStyles# >#chosenPhrase##chosenPhrase##chosenPhrase##chosenPhrase##chosenPhrase#</text></g>"
+    "#__p1_##chosenPhrase#</text><g y=\"0\" x=\"0\" transform=\"translate(-1026,42)\" opacity=\"1\"><text #applyturbulence2# id=\"firstLine\" y=\"0\" x=\"0\" fill=\"#dark#\"  style=\"font-family: Rubik, sans-serif; font-size: 42px; font-weight:300; font-style: #italicStyle#;\">#chosenPhrase#</text></g></g>",
+    "#__p1_##chosenPhrase#</text><g y=\"0\" x=\"0\" transform=\"translate(-1026,42)\" opacity=\"1\"><text #applyturbulence2# id=\"firstLine\" y=\"0\" x=\"0\" fill=\"#dark#\"  style=\"font-family: Rubik, sans-serif; font-size: 42px; font-weight:300; font-style: #italicStyle#;\">#chosenPhrase#</text></g></g><g y=\"0\" x=\"0\" transform=\"translate(#40to400#,#80to400#)\" #applyturbulence2#><text opacity=\".25\" #applyturbulence2# #repeatedTextStyles# ><tspan x=\"0\" dy=\"1.2em\">#chosenPhrase#</tspan><tspan x=\"0\" dy=\"1.2em\">#chosenPhrase#</tspan><tspan x=\"0\" dy=\"1.2em\">#chosenPhrase#</tspan><tspan x=\"0\" dy=\"1.2em\">#chosenPhrase#</tspan><tspan x=\"0\" dy=\"1.2em\">#chosenPhrase#</tspan><tspan x=\"0\" dy=\"1.2em\">#chosenPhrase#</tspan><tspan x=\"0\" dy=\"1.2em\">#chosenPhrase#</tspan><tspan x=\"0\" dy=\"1.2em\">#chosenPhrase#</tspan><tspan x=\"0\" dy=\"1.2em\">#chosenPhrase#</tspan><tspan x=\"0\" dy=\"1.2em\">#chosenPhrase#</tspan><tspan x=\"0\" dy=\"1.2em\">#chosenPhrase#</tspan><tspan x=\"0\" dy=\"1.2em\">#chosenPhrase#</tspan><tspan x=\"0\" dy=\"1.2em\">#chosenPhrase#</tspan><tspan x=\"0\" dy=\"1.2em\">#chosenPhrase#</tspan><tspan x=\"0\" dy=\"1.2em\">#chosenPhrase#</tspan><tspan x=\"0\" dy=\"1.2em\">#chosenPhrase#</tspan><tspan x=\"0\" dy=\"1.2em\">#chosenPhrase#</tspan></text></g>"
   ],
 
   "repeatedTextStyles": [
@@ -16,20 +16,20 @@
 
   
  "phrases": [
-  "<tspan x=\"0\" dy=\"1.2em\">What do machines want? </tspan><tspan x=\"0\" dy=\"1.2em\">#computerAdjective.capitalize# #senseNoun#.</tspan>",
-  "<tspan x=\"0\" dy=\"1.2em\">#computerAdjective.capitalize# #senseNoun# </tspan><tspan x=\"0\" dy=\"1.2em\">feel good to computers.</tspan>",
-  "<tspan x=\"0\" dy=\"1.2em\">A.I.s can sense </tspan><tspan x=\"0\" dy=\"1.2em\">#computerAdjective# #senseNoun#.</tspan>",
-  "<tspan x=\"0\" dy=\"1.2em\">#computerAdjective.capitalize# #senseNoun# </tspan><tspan x=\"0\" dy=\"1.2em\">help machines savor life.</tspan>",
-  "<tspan x=\"0\" dy=\"1.2em\">Cyborgs enjoy </tspan><tspan x=\"0\" dy=\"1.2em\">#computerAdjective# #senseNoun#.</tspan>",
-  "<tspan x=\"0\" dy=\"1.2em\">Androids dream of </tspan><tspan x=\"0\" dy=\"1.2em\">#computerAdjective# #senseNoun#.</tspan>",
-  "<tspan x=\"0\" dy=\"1.2em\">#computerAdjective.capitalize# #senseNoun# </tspan><tspan x=\"0\" dy=\"1.2em\">are what robots crave.</tspan>",
-  "<tspan x=\"0\" dy=\"1.2em\">Listen. Bots need </tspan><tspan x=\"0\" dy=\"1.2em\">#computerAdjective# #senseNoun#.</tspan>",
-  "<tspan x=\"0\" dy=\"1.2em\">A.I.s like feeling </tspan><tspan x=\"0\" dy=\"1.2em\">#computerAdjective# #senseNoun#.</tspan>",
-  "<tspan x=\"0\" dy=\"1.2em\">Of course cyborgs love </tspan><tspan x=\"0\" dy=\"1.2em\">#computerAdjective# #senseNoun#.</tspan>",
-  "<tspan x=\"0\" dy=\"1.2em\">#computerAdjective.capitalize# #senseNoun# </tspan><tspan x=\"0\" dy=\"1.2em\">delight machines.</tspan>"
+  "What do machines want? #computerAdjective.capitalize# #senseNoun#.",
+  "#computerAdjective.capitalize# #senseNoun# feel good to computers.",
+  "A.I.s can sense #computerAdjective# #senseNoun#.",
+  "#computerAdjective.capitalize# #senseNoun# help machines savor life.",
+  "Cyborgs enjoy #computerAdjective# #senseNoun#.",
+  "Androids dream of #computerAdjective# #senseNoun#.",
+  "#computerAdjective.capitalize# #senseNoun# are what robots crave.",
+  "Listen. Bots need #computerAdjective# #senseNoun#.",
+  "A.I.s like feeling #computerAdjective# #senseNoun#.",
+  "Of course cyborgs love #computerAdjective# #senseNoun#.",
+  "#computerAdjective.capitalize# #senseNoun# delight machines."
 ],
 
-  "__p1_": "<g y=\"0\" x=\"0\" transform=\"translate(#40to400#,#80to400#)\"><text #applyturbulence2# id=\"firstLine\" y=\"0\" x=\"0\" fill=\"#dark#\"  style=\"font-family: Rubik, sans-serif; font-size: 42px; font-weight:300; font-style: #italicStyle#;\">",
+  "__p1_": "<g y=\"0\" x=\"0\" transform=\"translate(#40to400#,#80to400#)\"><text #applyturbulenceMainText# id=\"firstLine\" y=\"0\" x=\"0\" fill=\"#dark#\"  style=\"font-family: Rubik, sans-serif; font-size: 42px; font-weight:300; font-style: #italicStyle#;\">",
   "_ep1__": "</text></g>",
 
 
@@ -57,8 +57,11 @@
   ],
 
   "pathGroup" : [
-    "", "",
-    "#squigglyPath##glitchyPath#"
+    "", "","", "","", "",
+    "#squigglyPath#",
+    "#glitchyPath#",
+    "#squigglyPath##glitchyPath#",
+    "#squigglyPath##glitchyPath##glitchyPath#"
   ],
 
   "squigglyPath" : [ "<path class=\"curvyPath\" #applyturbulence2# d=\"M -2, #10to490# C #20to800#,#20to800# #20to800#,#20to800# #20to800#,#20to800# #20to800#,#20to800# #20to800#,#20to800# #20to800#,#20to800#\" stroke=\"\\##purple#\" stroke-width=\"#0-1##pointOnetoPoint9#\" opacity=\".#0-7#\" fill=\"none\"></path>" ],
@@ -67,7 +70,7 @@
 
 
   "overlayImage": [
-    "<image xlink:href=\"https://i.imgur.com/SX3f0tk.png\" x=\"#0-2##0-5##1-9#\" y=\"#1-9##1-9#\" width=\"#basew#\" height=\"#baseh#\" transform=\"#rotateImage#\" opacity=\"0.25\" #applyturbulence0#/>"
+    "<image xlink:href=\"https://i.imgur.com/SX3f0tk.png\" x=\"#neativeOrNo##0-2##0-5##1-9#\" y=\"#neativeOrNo##1-9##1-9#\" width=\"#basew#\" height=\"#baseh#\" transform=\"#rotateImage#\" opacity=\"0.25\" #applyturbulence0#/>"
   ],
 
   "rotateImage": [
@@ -82,9 +85,9 @@
   "text2Filters" : [
     "fill=\"dark\"",
     "fill=\"dark\"",
-    "filter=\"url(\\#turbulence2)\" fill=\"#dark\"",
-    "filter=\"url(\\#turbulence2)\" fill=\"#dark\"",
-    "filter=\"url(\\#turbulence2)\" fill=\"transparent\" stroke-width=\"1\" stroke=\"#dark#\""
+    "filter=\"url(\\#turbulence2#)\" fill=\"#dark\"",
+    "filter=\"url(\\#turbulence2#)\" fill=\"#dark\"",
+    "filter=\"url(\\#turbulence2#)\" fill=\"transparent\" stroke-width=\"1\" stroke=\"#dark#\""
   ],
 
   "applyturbulence0" : [
@@ -101,6 +104,11 @@
     "",
     "filter=\"url(\\#turbulence2#)\""
   ],
+  
+  "applyturbulenceMainText" : [
+    "",
+    "filter=\"url(\\#turbulenceMainText#)\""
+  ],
 
   "applyBlur" : [
     "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",
@@ -110,14 +118,15 @@
     "filter=\"url(\\#blurMe2)\""
   ],
 
-  "filters" : [ "#turbulenceFilters# <filter id=\"blurMe1\"> <feGaussianBlur in=\"SourceGraphic\" stdDeviation=\"1\"/> </filter> <filter id=\"blurMe2\"> <feGaussianBlur in=\"SourceGraphic\" stdDeviation=\"2\"/> </filter> <filter id=\"dropShadow\"> <feGaussianBlur in=\"SourceAlpha\" stdDeviation=\"3\" result=\"blur\"/> <feoffset in=\"blur\" dx=\"4\" dy=\"4\" result=\"offsetBlur\"/> </filter> <feMerge> <feMergeNode in=\"offsetBlur\"/> <feMergeNode in=\"SourceGraphic\"/> </feMerge>" ],
+  "filters" : [ "#turbulenceFilters# <filter id=\"blurMe1\"> <feGaussianBlur in=\"SourceGraphic\" stdDeviation=\"1\"/> </filter> <filter id=\"blurMe2\"> <feGaussianBlur in=\"SourceGraphic\" stdDeviation=\"1.5\"/> </filter> <filter id=\"dropShadow\"> <feGaussianBlur in=\"SourceAlpha\" stdDeviation=\"3\" result=\"blur\"/> <feoffset in=\"blur\" dx=\"4\" dy=\"4\" result=\"offsetBlur\"/> </filter> <feMerge> <feMergeNode in=\"offsetBlur\"/> <feMergeNode in=\"SourceGraphic\"/> </feMerge>" ],
 
   "turbulenceFilters" : [
-    "#defTurbulence0##defTurbulence1##defTurbulence2#"
+    "#defTurbulence0##defTurbulence1##defTurbulence2##defTurbulenceMainText#"
   ],
   "defTurbulence0" : [ "<filter id=\"turbulence0\"> <feTurbulence baseFrequency=\".2\" type=\"fractalNoise\" numOctaves=\"3\" seed=\"0\" result=\"Texture_10\" /> <feColorMatrix type=\"matrix\" values=\"0 0 0 0 0, 0 0 0 0 0, 0 0 0 0 0, 0 0 0 -2.1 1.1\" in=\"Texture_10\"  result=\"Texture_20\" /> <feColorMatrix result=\"Texture_30\" type=\"matrix\" values=\"0 0 0 0 0, 0 0 0 0 0, 0 0 0 0 0, 0 0 0 -1.7 1.8\" in=\"Texture_10\" /> <feMorphology operator=\"dilate\" radius=\"1\" in=\"SourceAlpha\" result=\"OUTLINE_10\" /> <feComposite operator=\"out\" in=\"OUTLINE_10\" in2 = \"SourceAlpha\" result=\"OUTLINE_20\" /> <feDisplacementMap scale=\"2\" in=\"OUTLINE_20\" in2=\"Texture_10\" result=\"OUTLINE_30\" /> <feComposite operator=\"arithmetic\" k2=\"-1\" k3=\"1\" in=\"Texture_20\" in2=\"OUTLINE_30\" result=\"OUTLINE_40\" /> </filter>" ],
   "defTurbulence1" : [ "<filter id=\"turbulence1\"> <feTurbulence baseFrequency=\".8\" type=\"fractalNoise\" numOctaves=\"3\" seed=\"0\" result=\"Texture_10\" /> <feColorMatrix type=\"matrix\" values=\"0 0 0 0 0, 0 0 0 0 0, 0 0 0 0 0, 0 0 0 -2.1 1.1\" in=\"Texture_10\"  result=\"Texture_20\" /> <feColorMatrix result=\"Texture_30\" type=\"matrix\" values=\"0 0 0 0 0, 0 0 0 0 0, 0 0 0 0 0, 0 0 0 -1.7 1.8\" in=\"Texture_10\" /> <feMorphology operator=\"dilate\" radius=\"1\" in=\"SourceAlpha\" result=\"OUTLINE_10\" /> <feDisplacementMap scale=\"7\" in=\"OUTLINE_10\" in2=\"Texture_10\" result=\"OUTLINE_30\" /> <feComposite operator=\"arithmetic\" k2=\"-1\" k3=\"1\" in=\"Texture_20\" in2=\"OUTLINE_30\" result=\"OUTLINE_40\" /> </filter>" ],
   "defTurbulence2" : [ "<filter id=\"turbulence2\"> <feTurbulence baseFrequency=\".005\" type=\"fractalNoise\" numOctaves=\"1\" seed=\"0\" result=\"Texture_10\" /> <feColorMatrix type=\"matrix\" values=\"0 0 0 0 0, 0 0 0 0 0, 0 0 0 0 0, 0 0 0 -2.1 1.1\" in=\"Texture_10\"  result=\"Texture_20\" /> <feColorMatrix result=\"Texture_30\" type=\"matrix\" values=\"0 0 0 0 0, 0 0 0 0 0, 0 0 0 0 0, 0 0 0 -1.7 1.8\" in=\"Texture_10\" /> <feMorphology operator=\"dilate\" radius=\".1\" in=\"SourceAlpha\" result=\"OUTLINE_10\" /> <feDisplacementMap scale=\"7\" in=\"OUTLINE_10\" in2=\"Texture_10\" result=\"OUTLINE_30\" /> <feComposite operator=\"arithmetic\" k2=\"-1\" k3=\"1\" in=\"Texture_20\" in2=\"OUTLINE_30\" result=\"OUTLINE_40\" /> </filter>" ],
+  "defTurbulenceMainText" : [ "<filter id=\"turbulenceMainText\"> <feTurbulence baseFrequency=\".01#0-8#\" type=\"fractalNoise\" numOctaves=\"1\" seed=\"0\" result=\"Texture_10\" /> <feColorMatrix type=\"matrix\" values=\"0 0 0 0 0, 0 0 0 0 0, 0 0 0 0 0, 0 0 0 -2.1 1.1\" in=\"Texture_10\"  result=\"Texture_20\" /> <feColorMatrix result=\"Texture_30\" type=\"matrix\" values=\"0 0 0 0 0, 0 0 0 0 0, 0 0 0 0 0, 0 0 0 -1.7 1.8\" in=\"Texture_10\" /> <feMorphology operator=\"dilate\" radius=\".1\" in=\"SourceAlpha\" result=\"OUTLINE_10\" /> <feDisplacementMap scale=\"7\" in=\"OUTLINE_10\" in2=\"Texture_10\" result=\"OUTLINE_30\" /> <feComposite operator=\"arithmetic\" k2=\"-1\" k3=\"1\" in=\"Texture_20\" in2=\"OUTLINE_30\" result=\"OUTLINE_40\" /> </filter>" ],
 
   "neativeOrNo" : [ "-", "" ],
   "digit":[ "0","1","2","3","4","5","6","7","8","9" ],
@@ -127,6 +136,7 @@
   "1-3":[ "3","1","2" ],
   "0-5":[ "0","1","2","3","4","5" ],
   "0-7":[ "0","1","2","3","4","5", "6", "7" ],
+  "0-8":[ "0","1","2","3","4","5", "6", "7","8" ],
   "4-9":[ "4","5","6","7","8","9" ],
   "1-9":[ "1","2","3","4","5","6","7","8","9" ],
   "pointOnetoPoint9":[ ".#digit#", ".#digit#", ".#digit#", ".#digit#",".#digit#",".#digit#",".#digit#",".#digit#" ],
