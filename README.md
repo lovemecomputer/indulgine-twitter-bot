@@ -4,7 +4,7 @@ Twitter bot authored by [Heather Kelley](http://www.perfectplum.com/) and [Audre
 
 🐦 ⇢ https://twitter.com/indulgine
 
----
+![indulgine generated image](screenshot.png)
 
 ## Logging in to update the bot
 
